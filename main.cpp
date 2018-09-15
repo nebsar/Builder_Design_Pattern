@@ -117,8 +117,8 @@ int main() {
     JetBuilder jb;
     PropellerBuilder pb;
 
-    Plane *jet = dir.createPlane(&jb);
-    Plane *pro = dir.createPlane(&pb);
+    Plane* jet = dir.createPlane(&jb);
+    Plane* pro = dir.createPlane(&pb);
 
     jet->show();
     pro->show();
